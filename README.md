@@ -22,6 +22,7 @@
 - **Rechtsklick-Menü:** „Schattendateien bereinigen“ für markierte Ordner oder den Fensterhintergrund; mehrere Ordner werden nacheinander bereinigt.
 - **Vorbeugen:** Auf Wunsch legt der Finder auf Netzwerk- und USB-Laufwerken gar keine neuen `.DS_Store`-Dateien mehr an.
 - **Verlauf und Fehlerprotokoll:** Jede Bereinigung mit Ordner, Anzahl je Dateiart und Dauer; Dateien, die sich nicht löschen liessen, stehen im Fehlerprotokoll.
+- **Signiert und notarisiert** mit einem Apple-Entwicklerzertifikat.
 - **Menüleisten-App:** Symbol wählbar und ausblendbar, Start bei der Anmeldung, Erscheinungsbild Automatisch/Hell/Dunkel, automatische Updates nach Bestätigung, **Deutsch, Englisch, Französisch, Italienisch und Spanisch**, Liquid Glass ab macOS 26.
 
 <p align="center">
@@ -73,7 +74,9 @@
 
 1. Unter [Releases](../../releases/latest) die Datei `mmDotCleaner-<Version>.dmg` herunterladen.
 2. DMG öffnen und mmDotCleaner in den Ordner „Programme“ ziehen.
-3. Beim ersten Start fragt macOS nach einer Freigabe: Systemeinstellungen › Datenschutz & Sicherheit › „Trotzdem öffnen“.
+3. mmDotCleaner starten. Die App ist signiert und von Apple beglaubigt (notarisiert) und startet ohne Rückfrage. Wie der Besen in die Symbolleiste kommt, zeigt die App auf der Seite „Finder“.
+
+> **Umstieg von 0.1.3 oder älter:** Version 0.2.0 hat eine neue interne Kennung, deshalb kann sich die App nicht selbst darauf aktualisieren. Einmal die DMG laden und mmDotCleaner im Ordner „Programme“ ersetzen. Einstellungen und Verlauf werden übernommen; die Finder-Erweiterung, „Beim Anmelden starten“ und den Knopf in der Symbolleiste einmal neu einrichten.
 
 Danach aktualisiert sich mmDotCleaner selbst: Die App sucht täglich nach neuen Versionen und installiert sie nach Bestätigung (Einstellungen › Allgemein › „Jetzt suchen …“).
 
@@ -105,6 +108,7 @@ mmDotCleaner sweeps `.DS_Store` and `._` files out of any folder – with one cl
 - **Context menu:** “Clean Up Shadow Files” for selected folders or the window background; several folders are cleaned one after the other.
 - **Prevention:** if you like, Finder stops creating new `.DS_Store` files on network and USB drives.
 - **History and error log:** every cleanup with folder, count per file kind and duration; files that couldn’t be deleted are listed in the error log.
+- **Signed and notarized** with an Apple developer certificate.
 - **Menu bar app:** choose or hide the icon, launch at login, appearance Automatic/Light/Dark, automatic updates once you confirm, **English, German, French, Italian and Spanish**, Liquid Glass on macOS 26 and later.
 
 <p align="center">
@@ -154,7 +158,9 @@ mmDotCleaner sweeps `.DS_Store` and `._` files out of any folder – with one cl
 
 1. Download `mmDotCleaner-<version>.dmg` from [Releases](../../releases/latest).
 2. Open the disk image and drag mmDotCleaner to the Applications folder.
-3. On first launch macOS asks for your approval: System Settings › Privacy & Security › “Open Anyway”.
+3. Launch mmDotCleaner. The app is signed and notarized by Apple, so it opens without any warning. The “Finder” page of the app shows how to get the broom into the toolbar.
+
+> **Coming from 0.1.3 or earlier:** version 0.2.0 carries a new internal identifier, so the app cannot update itself to it. Download the disk image once and replace mmDotCleaner in your Applications folder. Settings and history are carried over; set up the Finder extension, “Launch at login” and the toolbar button once more.
 
 After that mmDotCleaner updates itself: it checks for new versions daily and installs them once you confirm (Settings › General › “Check Now…”).
 
